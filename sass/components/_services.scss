@@ -1,23 +1,23 @@
-.services-title {
-  color: var(--title-text-color);
+.service {
+  &-title {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-
-  margin-bottom: 50px;
-}
-
-.services-list {
-  display: flex;
-}
-
-.service-card:not(:last-child) {
-  margin-right: 30px;
+  &-list {
+    display: flex;
+  }
 }
 
 .service-card {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .service-card-title {
